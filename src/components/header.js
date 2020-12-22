@@ -1,34 +1,50 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Headroom from "react-headroom"
+
+//import Navigation from "./navigation.js"
+
+
+import { Container, Col, Row, Image } from 'react-bootstrap'
+import styles from './menu-button.module.css'
+import MenuContainer from './menu-container.js'
+import './hamburger.css'
+import logo from  "../images/annaga-logo.png" // Tell webpack this JS file uses this image
+
+
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <Headroom>
+
+
+
+
+
+
+
+
+
+  <header>
+  
+  <div className={styles.navigationBar}>
+
+<div>
+<Link to="/">
+<Image src={logo} className={styles.logoLink}  alt="Annaga"  />
+</Link></div>
+
+
+
+
+<div >
+    <MenuContainer />
+</div></div>
+
+  
+
   </header>
+  </Headroom>
 )
 
 Header.propTypes = {
