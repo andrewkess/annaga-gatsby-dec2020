@@ -1,0 +1,471 @@
+
+
+.newFill{
+
+
+  /*
+  width: 400px;
+        max-width: 400px;
+          */
+          display: block !important;
+
+        object-fit: cover;
+height: calc(var(--vh, 1vh) * 100);
+min-height: 300px;
+}
+
+
+.projectFill{
+  /*
+  width: 400px;
+height: calc(var(--vh, 1vh) * 90);
+  max-width: 400px;
+          */
+          display: block !important;
+        object-fit: cover;
+        min-height: 408px;
+
+}
+
+.fake{
+    /*
+  placeholder css to force the css to load through theme
+          */
+}
+
+.mainDiv {
+height:60vh;
+}
+  
+
+.backFiller{
+
+  
+}
+
+.backFiller:hover h1 {
+
+  
+}
+
+
+  .capp{
+  
+    text-align: left !important;
+    bottom: 5vh !important;
+    left: 6%;
+
+ 
+
+ 
+ 
+
+      }
+  
+
+.capp h1{
+
+  font-family: "Bebas Neue"; 
+  font-weight: 500;
+  letter-spacing: 0.03cm;
+  line-height: 0.75em;
+display: swap;
+font-size: 5.4em;
+margin-bottom: -0.5rem;
+opacity: 0.9;
+margin-top: 7px !important;
+}
+
+
+.capp p{
+  font-family: "Mukta";
+display: swap;
+line-height: 1.2em; 
+font-size: 3.4vh;
+margin-top:15px;
+margin-bottom: 0.5rem;
+          /*
+                   // font can get larger, but no smaller than 10 points.
+            */
+            font-size: calc(13pt + 0.15vw);
+            letter-spacing: 0.05em;
+            font-weight: 500;
+}
+
+.cappProject{
+  
+  text-align: left !important;
+  bottom: -1vh;
+  left: 3%;
+
+
+
+
+    }
+
+
+.cappProject h1{
+
+font-family: "Bebas Neue"; 
+font-weight: 500;
+letter-spacing: 0.03cm;
+line-height: 0.75em;
+display: swap;
+font-size: 3em;
+margin-bottom: -0.5rem;
+opacity: 0.9;
+}
+
+
+.cappProject p{
+font-family: "Mukta";
+display: swap;
+line-height: 1.2em; 
+font-size: 3vh;
+margin-top:15px;
+margin-bottom: 0.5rem;
+}
+
+
+  .preview {
+   padding:0px !important ;
+  background-color: black !important;
+
+
+
+
+  height: 100vh;
+   /*
+      object-position: center center;
+          justify-content: flex-start !important;
+  
+          #FF2483
+
+
+      */
+     
+      width: 100%;
+
+
+
+       /*/ note: search for a gradient overlay generator to make this easier.
+
+    // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
+
+    */
+  
+top: -64px;
+z-index:0;
+
+
+
+  }
+
+  .getFull{
+
+  height: 100vh;
+
+
+
+
+
+  }
+   
+  
+  .preview4 {
+    padding:0px !important ;
+   background-color: black;
+   
+    /*
+       object-position: center center;
+           */
+      
+   
+
+
+  
+  
+   
+
+   }
+
+      .previewTitle {
+        font-size: 1.1em;
+        font-weight: 500;
+        color:#212529;
+        margin-bottom: 1px;
+      }
+      
+      .hero {
+          position: relative;
+          background: #000;
+          color: #fff;
+          text-align: center;
+        
+        }
+        
+        
+        
+        .heroImage {
+          /*
+            Ensure golden ratio for the hero size while limiting it to some extend to
+            the viewport width
+          */
+          height: 61.8vh;
+          max-height: 400px;
+        }
+        
+        
+        .heroImageInstructor {
+          /*
+            Ensure golden ratio for the hero size while limiting it to some extend to
+            the viewport width
+        
+            height: 61.8vh;
+          max-height: 400px;
+          
+          */
+          height: 80vh;
+        
+        }
+        
+        .heroDetails {
+          position: absolute;
+          background: rgba(0, 0, 0, 0.7);
+          left: 50%;
+          bottom: 0;
+          transform: translate(-50%, 0);
+          font-size: 14px;
+          padding: 0 0.5em;
+        }
+        
+        
+           .TryIt{
+            font-size:5em;
+          }
+        
+  .projectsTitle{
+      font-family: "Bebas Neue";
+    font-weight: 500;
+    letter-spacing: 0.03cm;
+    line-height: 0.75em;
+    padding-bottom: 2rem;
+    font-size: 3em;
+    color:white;
+  }
+        
+  .aboutText{
+      font-weight: 500;
+    letter-spacing: 0.03cm;
+    line-height: 1.3em;
+    padding-bottom: 0.4em;
+    font-size: 2.5em;
+    color:white;
+    
+
+  }
+        
+        @media(max-width: 425px){
+    
+    .aboutText{
+    line-height: 1.3em;
+    font-size: 1.5em;
+  }
+        }
+        
+             @media(max-width: 768px){
+    
+    .aboutText{
+    line-height: 1.3em;
+    font-size: 1.6em;
+  }
+        }
+        
+        @media(min-width: 400px) {
+          
+
+          
+          .TryIt{
+            font-size:3em;
+          }
+          
+          .heroDetails {
+            font-size: 16px;
+          }
+          .instructHero {
+            position: relative;
+            padding-top:0vmin;
+            padding:0;
+          }
+          .heroImageInstructor {
+            /*
+              Ensure golden ratio for the hero size while limiting it to some extend to
+              the viewport width
+          
+              height: 61.8vh;
+            max-height: 400px;
+            
+            */
+            height: 61.8vh;
+            max-height: 350px;
+          }
+
+
+
+          .capp h1{
+
+            font-family: "Bebas Neue"; 
+            font-weight: 500;
+            letter-spacing: 0.03cm;
+            line-height: 0.75em;
+          display: swap;
+          font-size: 5em;
+          
+          }
+
+          .capp p{
+          line-height: 1.1em; 
+          font-size: 3.8vh;
+
+     
+
+
+
+          }
+
+
+        }
+        
+        @media(min-width: 600px) {
+        
+          .heroImageInstructor {
+            /*
+              Ensure golden ratio for the hero size while limiting it to some extend to
+              the viewport width
+          
+              height: 61.8vh;
+            max-height: 400px;
+            
+            */
+            height: 80vh;
+            max-height: 500px;
+          
+          }
+
+          .capp{
+  
+            text-align: left !important;
+            bottom: 1vh;
+            left: 12%;
+
+
+
+
+              }
+
+              .capp h1{
+
+                font-family: "Bebas Neue"; 
+                font-weight: 500;
+                letter-spacing: 0.03cm;
+                line-height: 0.75em;
+              display: swap;
+              font-size: 6em;
+              
+              }
+
+              .capp p{
+                line-height: 1em; 
+              }
+
+        }
+        
+        @media(min-width: 1000px) {
+          
+
+          
+          .heroDetails {
+            font-size: 20px;
+          }
+          .instructHero {
+            position: relative;
+            padding-left:5vmin;
+            padding-top:5vmin;
+          
+          }
+          .heroImageInstructor {
+            /*
+              Ensure golden ratio for the hero size while limiting it to some extend to
+              the viewport width
+          
+              height: 61.8vh;
+            max-height: 400px;
+            
+            */
+            height: 80vh;
+            max-height: 700px;
+        
+          
+          }
+
+
+          .capp{
+  
+            text-align: left !important;
+            bottom: 4vh;
+            left: 10%;
+
+
+
+
+              }
+
+              .capp h1{
+
+                font-family: "Bebas Neue"; 
+                font-weight: 500;
+                letter-spacing: 0.03cm;
+                line-height: 0.75em;
+              display: swap;
+              font-size: 8em;
+              
+              }
+              .capp p{
+                font-size: 3.9vh;
+              }
+
+
+        }
+        
+        .heroHeadline {
+          margin: 0;
+        }
+        
+        .heroTitle {
+          margin: 0;
+          font-size: 1.125em;
+          font-weight: bold;
+        }
+        
+
+        .carousel-control-prev-icon{
+          background-image: url("../images/left-arrow.png") !important;
+          border-image: none !important;
+          height:28px !important;
+          width:15px !important;
+        }
+     
+      .carousel-control-next-icon{
+        background-image: url("../images/right-arrow.png") !important;
+        height:28px !important;
+        width:15px !important;
+
+          border-image: none !important;
+        }
+        
+        .carousel-caption {
+          padding-top:0px !important;
+          padding-bottom:0px !important;
+          right:5% !important;
+
+        }

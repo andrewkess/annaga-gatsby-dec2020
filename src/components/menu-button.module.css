@@ -14,11 +14,13 @@
 
 .navigationBar{
     background-color:#240001;
+    background:linear-gradient(#0003, #0000);
+      z-index: 15;
+
 /*    position: fixed; 
   top: 0;
   left:0;
   
-  z-index: 15;
   
 justify-content: space-between;
 transition: top 0.3s; /* Transition effect when sliding down (and up) */  
@@ -33,7 +35,6 @@ flex-direction: row;
 flex-wrap: nowrap;
 justify-content: space-between;
 overflow: hidden;
-  
 }
 
 
