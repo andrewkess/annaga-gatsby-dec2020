@@ -19,9 +19,12 @@ body{
 .headroom--unfixed {
   position: relative;
   transform: translateY(0);
+
 }
 .headroom--scrolled {
   transition: transform 200ms ease-in-out;
+    background-color:#240001;
+
 }
 .headroom--unpinned {
   position: fixed;
@@ -30,8 +33,7 @@ body{
 .headroom--pinned {
   position: fixed;
   transform: translateY(0%);
-  
-  background:linear-gradient(#240001 85%, #0000 15%);
+  background-color:#240001;
 
   
 }
