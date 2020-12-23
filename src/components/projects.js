@@ -9,6 +9,10 @@ import logo from  "../images/brexit.jpg" // Tell webpack this JS file uses this 
 import logoTwo from "../images/live.jpg" // Tell webpack this JS file uses this image
 import logoThree from "../images/boots.jpg" // Tell webpack this JS file uses this image
 import logoFour from  "../images/bear.jpg" // Tell webpack this JS file uses this image
+import logoFive from "../images/spy.jpg" // Tell webpack this JS file uses this image
+import logoSix from "../images/lemon.jpg" // Tell webpack this JS file uses this image
+import logoSeven from  "../images/fire.jpg" // Tell webpack this JS file uses this image
+
 
 //import Footer from "./footer"
 
@@ -187,9 +191,9 @@ const Projects = () => (
     }}
   >
         <Carousel.Item className="project">
-<Image src={logoThree} className="projectFill"  alt="NEVER"  />
+<Image src={logoFive} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
-<h1>Flashum</h1>
+<h1>Dorganix</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
@@ -218,7 +222,7 @@ const Projects = () => (
     }}
   >
         <Carousel.Item className="project">
-<Image src={logoFour} className="projectFill"  alt="NEVER"  />
+<Image src={logoSix} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
 <h1>Lemon grass holidays</h1>
 <p>Juan Pablo Domenech</p>
@@ -249,7 +253,7 @@ const Projects = () => (
     }}
   >
         <Carousel.Item className="project">
-<Image src={logoFour} className="projectFill"  alt="NEVER"  />
+<Image src={logoSeven} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
 <h1>Meteoric rise</h1>
 <p>Juan Pablo Domenech</p>
