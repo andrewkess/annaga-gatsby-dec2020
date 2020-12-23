@@ -32,7 +32,7 @@ const Footer = () => (
 </div>
 
    <div className={styles.bottomFooter2}>
-          &copy; {new Date().getFullYear()} Annagra Productions
+          &copy;{new Date().getFullYear()} Annaga Productions
  &nbsp;&nbsp;
       <Link aria-label="Link to Privacy Policy" href="#" className={styles.bottomFooterLink}>
       Privacy Policy 
