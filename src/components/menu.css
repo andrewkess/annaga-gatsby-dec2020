@@ -27,6 +27,7 @@ background-color: #240001;
     z-index: 500;
   padding:5px;
   margin:0 auto;
+  overflow: hidden;
   }
   
   
@@ -41,7 +42,7 @@ background-color: #240001;
     transform: translate3d(0vw, 0, 0);
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh + 64px);
   }
    
   #flyoutMenu  a {
@@ -97,7 +98,8 @@ margin-right: 1vw;
 
  .settingRight{
 
-  
+  overflow:hidden !important;
+  height:100%;
 }
 
 
@@ -115,7 +117,6 @@ margin-right: 1vw;
       transform: translate3d(70vw, 0, 0);
       overflow: hidden;
       width: 31vw;
-      height: 100vh;
       border-left: 1px solid black;
     }
       
