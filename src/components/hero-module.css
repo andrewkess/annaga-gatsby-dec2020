@@ -21,19 +21,30 @@ min-height: 300px; */
 }
 
 
-.projectFill{
+.project{
   /*
   width: 400px;
 height: calc(var(--vh, 1vh) * 90);
   max-width: 400px;
           */
           display: block !important;
-        object-fit: cover;
         min-height: 408px;
 
+height: calc(var(--vh, 1vh) * 80);
+    margin-bottom:1rem;
+
+}
+
+.projectFill{
+  /*
   width: 400px;
 height: calc(var(--vh, 1vh) * 90);
   max-width: 400px;
+          */
+        object-fit: cover;
+
+height: calc(var(--vh, 1vh) * 80);
+width:100%;
 
 }
 
@@ -261,7 +272,10 @@ z-index:0;
     line-height: 0.75em;
     padding-bottom: 2rem;
     font-size: 3em;
-    color:white;
+    color:#240001;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
         
   .aboutText{

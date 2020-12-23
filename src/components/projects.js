@@ -1,7 +1,7 @@
 
 import React from "react"
 import styles2 from './hero-module.css'
-import {  Image, Carousel } from 'react-bootstrap'
+import {Container,Row, Col,  Image, Carousel } from 'react-bootstrap'
 
 
 //import logo from  "../../../../static/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
@@ -13,25 +13,18 @@ import logoFour from  "../images/bear.jpg" // Tell webpack this JS file uses thi
 //import Footer from "./footer"
 
 const Projects = () => (
+
   <div>
-  
-  
       
-      <div className="projectsTitle">Projects</div>
+      <div className="projectsTitle">Latest Projects</div>
       
    
-      
-        <div
-          style={{
-            display: `grid`,
-            gridGap: [4, 4, 4, 5],
-            gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
-            h2: { gridColumn: `-1/1`, color: `white !important` },
-          }}
-          
-        >
-        
-         <a
+   
+   <Container fluid style={{ backgroundColor: `#343434`, }}>
+  <Row >
+    <Col lg={true}>
+
+  <a
     href="#"
     target="_blank"
     rel="noreferrer noopener"
@@ -53,7 +46,7 @@ const Projects = () => (
       },
     }}
   >
-        <Carousel.Item className="projectFill">
+        <Carousel.Item className="project">
 <Image src={logo} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
 <h1>Freiheit</h1>
@@ -67,7 +60,9 @@ const Projects = () => (
 
 </a>
 
-     <a
+   </Col>
+    <Col lg={true}>
+   <a
     href="#"
     target="_blank"
     rel="noreferrer noopener"
@@ -89,7 +84,7 @@ const Projects = () => (
       },
     }}
   >
-        <Carousel.Item className="projectFill">
+        <Carousel.Item className="project">
 <Image src={logoTwo} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
 <h1>Bold efforts</h1>
@@ -97,8 +92,12 @@ const Projects = () => (
 </Carousel.Caption>
 </Carousel.Item>
 </a>
-
-     <a
+    </Col>
+    
+  </Row>
+  <Row>
+  <Col sm>
+       <a
     href="#"
     target="_blank"
     rel="noreferrer noopener"
@@ -120,16 +119,16 @@ const Projects = () => (
       },
     }}
   >
-        <Carousel.Item className="projectFill">
+        <Carousel.Item className="project">
 <Image src={logoThree} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
 <h1>Boots the house down</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
-</a>
-
-     <a
+</a></Col>
+   <Col sm>
+       <a
     href="#"
     target="_blank"
     rel="noreferrer noopener"
@@ -151,21 +150,23 @@ const Projects = () => (
       },
     }}
   >
-        <Carousel.Item className="projectFill">
+        <Carousel.Item className="project">
 <Image src={logoFour} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
 <h1>Eagle Salmon Bear</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
-</a>
+</a></Col>
+  </Row>
+</Container>
    
-        
-        </div>
-    
+   
+      
+      
+    </div>
     
 
-  </div>
 )
 
 export default Projects
