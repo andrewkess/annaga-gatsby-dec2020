@@ -28,10 +28,13 @@ height: calc(var(--vh, 1vh) * 90);
   max-width: 400px;
           */
           display: block !important;
-        min-height: 408px;
 
-height: calc(var(--vh, 1vh) * 80);
-    margin-bottom:1rem;
+height: calc(var(--vh, 1vh) * 70);
+    margin-bottom:30px;
+}
+
+.removePad{
+
 
 }
 
@@ -43,9 +46,8 @@ height: calc(var(--vh, 1vh) * 90);
           */
         object-fit: cover;
 
-height: calc(var(--vh, 1vh) * 80);
+height: 100%;
 width:100%;
-
 }
 
 .fake{
@@ -295,6 +297,13 @@ z-index:0;
     line-height: 1.3em;
     font-size: 1.5em;
   }
+  
+  .project{
+          height: calc(var(--vh, 1vh) * 40);
+
+        }
+  
+  
         }
         
              @media(max-width: 768px){
@@ -307,7 +316,7 @@ z-index:0;
         
         @media(min-width: 400px) {
           
-
+    
           
           .TryIt{
             font-size:3em;
@@ -361,6 +370,9 @@ z-index:0;
         }
         
         @media(min-width: 600px) {
+        
+        
+    
         
           .heroImageInstructor {
             /*
