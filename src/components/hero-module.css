@@ -16,6 +16,7 @@ width:100vw;
         object-fit: cover;
   /*
 min-height: 300px; */
+min-height: -webkit-fill-available;
 
 
 }
