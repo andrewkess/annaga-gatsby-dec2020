@@ -15,7 +15,7 @@ import logo from  "../images/annaga-logo.png" // Tell webpack this JS file uses 
 
 
 const Header = ({ siteTitle }) => (
-  <Headroom>
+  <Headroom disableInlineStyles >
 
 
 

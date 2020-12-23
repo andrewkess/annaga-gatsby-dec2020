@@ -11,7 +11,11 @@
 
         object-fit: cover;
 height: calc(var(--vh, 1vh) * 100);
-min-height: 300px;
+
+
+  /*
+min-height: 300px; */
+
 }
 
 

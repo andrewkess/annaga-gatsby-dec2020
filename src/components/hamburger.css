@@ -1,8 +1,40 @@
 html{
    max-width: 100%;
     overflow-x: hidden;
-
 } 
+
+body{
+/* background-color: #240001 !important; */
+
+}
+
+
+.headroom {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 16 !important;
+
+}
+.headroom--unfixed {
+  position: relative;
+  transform: translateY(0);
+}
+.headroom--scrolled {
+  transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(-100%);
+}
+.headroom--pinned {
+  position: fixed;
+  transform: translateY(0%);
+  
+  background:linear-gradient(#240001 85%, #0000 15%);
+
+  
+}
 
 /*!
  * Hamburgers
