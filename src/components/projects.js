@@ -189,7 +189,7 @@ const Projects = () => (
         <Carousel.Item className="project">
 <Image src={logoThree} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
-<h1>Boots the house down</h1>
+<h1>Flashum</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
@@ -220,7 +220,7 @@ const Projects = () => (
         <Carousel.Item className="project">
 <Image src={logoFour} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
-<h1>Eagle Salmon Bear</h1>
+<h1>Lemon grass holidays</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
@@ -251,7 +251,7 @@ const Projects = () => (
         <Carousel.Item className="project">
 <Image src={logoFour} className="projectFill"  alt="NEVER"  />
 <Carousel.Caption className="cappProject">
-<h1>Eagle Salmon Bear</h1>
+<h1>Meteoric rise</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>

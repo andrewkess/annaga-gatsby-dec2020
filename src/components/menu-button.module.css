@@ -215,6 +215,7 @@ display: flex;
   font-size: 1.6em;
   display: flex;
   align-items: center;
+
 }
 
 .bottomFooter2{
@@ -233,7 +234,7 @@ display: flex;
   font-family: "Mukta";
   color: #ffffff;
   text-decoration: none;
-  padding-left:5px;
+
 }
 
 .bottomFooter2 a.bottomFooterLink
@@ -241,6 +242,7 @@ display: flex;
   font-family: "Mukta";
   color: #ffffff;
   text-decoration: none;
+  margin-left:8px;
 }
 
 .bottomFooter a.bottomFooterLink:hover
@@ -258,7 +260,7 @@ display: flex;
 .bottomFooter2 a.bottomFooterLink:hover
 {
   font-family: "Mukta";
-  color: #240001;
+  color: #FF2483;
  
 }
 
@@ -396,9 +398,16 @@ display: flex;
 .fullWidth{
   width: 100%;
 
-  padding-left:1em;
+          padding-top: 1rem;
+          padding-bottom: 0.6rem;
 
-    margin-bottom: 10px;
+  padding-left:1em;
+  padding-right:0em;
+
+
+      background-color: #FF2483;
+  background-color:#240001;
+
 }
 
 .socialIcons2
@@ -407,7 +416,7 @@ display: flex;
 
   justify-content:flex-end;
   flex-direction: row-reverse;
-padding-right:0.5em;
+padding-right:0.3em;
   
 }
 
@@ -504,7 +513,7 @@ color:white;
 
 .socialIcons2 a.footerOver:hover
 {
-  color:#240001;
+  color:#FF2483;
 }
 
 

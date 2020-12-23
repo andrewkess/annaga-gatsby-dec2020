@@ -10,7 +10,12 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
+
 import "./layout.css"
+
+require('typeface-mukta')
+require('typeface-bebas-neue')
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -31,17 +36,12 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
 //          maxWidth: 960,
   //        padding: `0 1.0875rem 1.45rem`,
-                    padding: `0 0 1.45rem`,
+                    padding: `0 0 0`,
         }}
       >
         <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        <Footer />
+     
       </div>
     </>
   )
