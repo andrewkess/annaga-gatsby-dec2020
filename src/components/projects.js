@@ -27,7 +27,7 @@ const Projects = () => (
    
    
    <Container fluid style={{ }}>
-  <Row><Fade bottom>
+  <Row>
     <Col lg={true}>
   <a
     href="#"
@@ -65,7 +65,7 @@ const Projects = () => (
 
 </a>
 
-   </Col></Fade>
+   </Col>
     <Col lg={true}>
    <a
     href="#"
