@@ -180,7 +180,7 @@ margin-bottom: 0.5rem;
 top: -64px;
 z-index:0;
 
-
+min-height: -webkit-fill-available;
 
   }
 
@@ -188,7 +188,7 @@ z-index:0;
 
   height: 100vh;
 
-
+min-height: -webkit-fill-available;
 
 
 
