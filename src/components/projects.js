@@ -3,6 +3,8 @@ import React from "react"
 import styles2 from './hero-module.css'
 import {Container,Row, Col,  Image, Carousel } from 'react-bootstrap'
 
+import Fade from 'react-reveal/Fade';
+
 
 //import logo from  "../../../../static/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
 import logo from  "../images/brexit.jpg" // Tell webpack this JS file uses this image
@@ -20,14 +22,13 @@ const Projects = () => (
 
   <div>
       
-      <div className="projectsTitle">Latest Projects</div>
+     <Fade bottom><div className="projectsTitle">Latest Projects</div></Fade>
       
    
    
    <Container fluid style={{ }}>
-  <Row>
+  <Row><Fade bottom>
     <Col lg={true}>
-
   <a
     href="#"
     target="_blank"
@@ -50,9 +51,9 @@ const Projects = () => (
       },
     }}
   >
-        <Carousel.Item className="project">
+   <Carousel.Item className="project">
 <Image src={logo} className="projectFill"  alt="NEVER"  />
-<Carousel.Caption className="cappProject">
+     <Carousel.Caption className="cappProject">
 <h1>Freiheit</h1>
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
@@ -64,7 +65,7 @@ const Projects = () => (
 
 </a>
 
-   </Col>
+   </Col></Fade>
     <Col lg={true}>
    <a
     href="#"
@@ -99,7 +100,7 @@ const Projects = () => (
     </Col>
     
   </Row>
-  <Row>
+ <Row>
   <Col sm className="removePad">
        <a
     href="#"
@@ -161,9 +162,9 @@ const Projects = () => (
 <p>Juan Pablo Domenech</p>
 </Carousel.Caption>
 </Carousel.Item>
-</a></Col>
+</a></Col>  
   </Row>
-  
+
   
   
   <Row>
