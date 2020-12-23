@@ -6,6 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Hero from '../components/hero'
+import Projects from '../components/projects'
 
 
 
@@ -17,6 +18,7 @@ const IndexPage = () => (
     
     <Hero/>
     
+    <Projects/>
 
     
     <h1>Hi people</h1>

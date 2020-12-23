@@ -9,12 +9,14 @@
           */
           display: block !important;
 
-        object-fit: cover;
+
 height: calc(var(--vh, 1vh) * 100);
-
-
+min-height: 300px;
+width:100vw;
+        object-fit: cover;
   /*
 min-height: 300px; */
+
 
 }
 
@@ -28,6 +30,10 @@ height: calc(var(--vh, 1vh) * 90);
           display: block !important;
         object-fit: cover;
         min-height: 408px;
+
+  width: 400px;
+height: calc(var(--vh, 1vh) * 90);
+  max-width: 400px;
 
 }
 
