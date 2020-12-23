@@ -16,6 +16,7 @@ import "./layout.css"
 
 require('typeface-mukta')
 require('typeface-bebas-neue')
+require('typeface-rubik')
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

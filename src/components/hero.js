@@ -10,9 +10,7 @@ import logo from  "../images/ramy-keyframe.jpg" // Tell webpack this JS file use
 import logoTwo from "../images/king-keyframe.jpeg" // Tell webpack this JS file uses this image
 import logoThree from "../images/minari-keyframe.jpeg" // Tell webpack this JS file uses this image
 
-require('typeface-mukta')
-require('typeface-bebas-neue')
-require('typeface-rubik')
+
 
 
 

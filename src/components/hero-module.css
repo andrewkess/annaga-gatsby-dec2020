@@ -10,11 +10,12 @@
           display: block !important;
 
 
-height:100%;
-width:100vw;
+height: calc(var(--vh, 1vh) * 100);
+width:100%;
         object-fit: cover;
   /*
 min-height: 300px; */
+  max-height: -webkit-fill-available;
 
 
 }
@@ -156,7 +157,7 @@ margin-bottom: 0.5rem;
 
 
 
-  height: 100vh;
+
    /*
       object-position: center center;
           justify-content: flex-start !important;
@@ -178,16 +179,16 @@ margin-bottom: 0.5rem;
   
 top: -64px;
 z-index:0;
-min-height: -webkit-fill-available;
+height:100vh;
+  max-height: -webkit-fill-available;
 
 
   }
 
   .getFull{
 
-  height: 100vh;
-
-min-height: -webkit-fill-available;
+height:100vh;
+  max-height: -webkit-fill-available;
 
 
 
