@@ -3,12 +3,11 @@ import "./menu.css";
 import { Link } from 'gatsby'
 import { Container, Col, Row } from 'react-bootstrap'
 import styles from './menu-button.module.css'
-import { FiShoppingCart } from 'react-icons/fi'
 
-import { IconContext } from "react-icons";
-import { FaFacebookSquare, FaInstagram, FaVimeoV, FaTwitter } from 'react-icons/fa'
+//import { IconContext } from "react-icons";
+import { FaVimeoV } from 'react-icons/fa'
 
-import { TiSocialInstagram, TiSocialVimeo, TiSocialTwitter } from 'react-icons/ti'
+import { TiSocialInstagram } from 'react-icons/ti'
 
 import { VscTwitter } from 'react-icons/vsc'
 

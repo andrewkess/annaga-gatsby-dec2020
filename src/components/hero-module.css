@@ -1,4 +1,43 @@
+@import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
+.project:hover h1 {
+/*
+cute ideas for giving a hover effect over the project cards
+color: #FF2483 !important;
+    opacity: 0.7;
+ cursor: pointer;
+*/
+}
+
+.project:hover {
+/*
+cute ideas for giving a hover effect over the project cards
+color: #FF2483 !important;
+    opacity: 0.7;
+ cursor: pointer;
+*/
+ cursor: pointer;
+  
+}
+
+.newFillProject{
+  
+  /*
+  width: 400px;
+        max-width: 400px;
+          */
+          display: block !important;
+
+
+height: calc(var(--vh, 1vh) * 50);
+width:100%;
+        object-fit: cover;
+  /*
+min-height: 300px; */
+  max-height: -webkit-fill-available;
+
+
+}
 
 .newFill{
 
@@ -99,6 +138,28 @@ opacity: 0.9;
 margin-top: 7px !important;
 }
 
+.projectTitle{
+
+  font-family: "Bebas Neue"; 
+  font-weight: 500;
+  letter-spacing: 0.03cm;
+display: swap;
+font-size: 3em;
+margin-bottom:0.25em;
+opacity: 0.9;
+margin-top: 7px !important;
+
+}
+
+.projectLink {
+ color:#240001;
+}
+
+.projectLink:hover{
+ color:#240001;
+
+}
+
 
 .capp p{
   font-family: "Mukta";
@@ -150,6 +211,41 @@ margin-bottom: 0.5rem;
 }
 
 
+
+.previewProject{
+     padding:0px !important ;
+  background-color: black !important;
+
+
+
+
+
+   /*
+      object-position: center center;
+          justify-content: flex-start !important;
+  
+          #FF2483
+
+
+      */
+     
+      width: 100%;
+
+
+
+       /*/ note: search for a gradient overlay generator to make this easier.
+
+    // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.
+
+    */
+  
+top: -64px;
+z-index:0;
+height:50vh;
+  max-height: -webkit-fill-available;
+
+}
+
   .preview {
    padding:0px !important ;
   background-color: black !important;
@@ -184,6 +280,12 @@ height:100vh;
 
 
   }
+
+.getFullProject{
+height:50vh;
+  max-height: -webkit-fill-available;
+  
+}
 
   .getFull{
 

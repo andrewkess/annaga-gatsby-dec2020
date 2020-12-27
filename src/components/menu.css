@@ -23,11 +23,12 @@ background-color: #240001;
     left: 0;
     transition: transform 0.5s
                 cubic-bezier(0, .52, 0, 1);
-    overflow: scroll;
-    z-index: 500;
+    z-index: 550;
   padding:5px;
   margin:0 auto;
-  overflow: hidden;
+
+
+
   }
   
   
@@ -43,7 +44,22 @@ background-color: #240001;
     overflow: hidden;
     width: 100vw;
     height: calc(100vh + 64px);
+
+
+  /*   
+      max-height: -webkit-fill-available;
+  
+      height: calc(100vh + 64px);
+
+  position: fixed;
+touch-action: none;
+        overflow-y: hidden;
+*/
+
   }
+  
+  
+  
    
   #flyoutMenu  a {
     color: white;

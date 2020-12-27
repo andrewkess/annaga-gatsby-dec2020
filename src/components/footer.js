@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './menu-button.module.css'
 import { Link } from "gatsby";
+import Fade from 'react-reveal/Fade'
 
 
 import { IconContext } from "react-icons";
@@ -20,7 +21,7 @@ const Footer = () => (
 <div className={styles.fullWidth}> 
 
 
-
+<Fade bottom>
 
 <div className={styles.spreadApart}>
 
@@ -30,6 +31,7 @@ const Footer = () => (
 
 
 </div>
+</Fade>
 
    <div className={styles.bottomFooter2}>
           &copy;{new Date().getFullYear()} Annaga Productions
@@ -46,7 +48,6 @@ const Footer = () => (
 
 
 </div>
-
        
 
 
