@@ -75,6 +75,8 @@ exports.createPages = ({ graphql, actions }) => {
 };
 
 
+//somehow this code makes the throwing of a null from the window object go away?
+
 // gatsby-node.js
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     actions.setWebpackConfig({

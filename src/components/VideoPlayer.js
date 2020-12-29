@@ -12,18 +12,25 @@ class VideoPlayer extends React.Component {
 
         let cl = cloudinary.Cloudinary.new({ cloud_name: "castles", secure: true })
         let videoPlayer = cl.videoPlayer('cl-vp', {
-            loop: true,
+            loop: false,
             controls: true,
             muted: muted ? true : false,
+            transformation: { crop: 'limit', width: 500 },
+            // posterOptions: { publicId: 'king-keyframe' }
+
+
         })
-        videoPlayer.source(publicID ? publicID : "", { info: { title: title ? title : "", subtitle: subtitle ? subtitle : "" } })
+        videoPlayer.source(publicID ? publicID : "", {
+            //info: { title: title ? title : "", subtitle: subtitle ? subtitle : "" } 
+
+        })
     }
 
     render() {
         return (
             <div className="video-player">
                     <video 
-                        autoPlay
+                        //autoPlay
                         id="cl-vp">
                     </video>
             </div>

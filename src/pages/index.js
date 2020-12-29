@@ -2,12 +2,18 @@ import React from "react"
 import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import styles2 from '../components/hero-module.css'
+import { Container, Row, Col, Image, Carousel } from 'react-bootstrap'
+
 
 import VideoPlayer from '../components/VideoPlayer'
 
 import Hero from '../components/hero'
 import Projects from '../components/projects'
 import './index.css'
+
+import logo from "../images/brexit.jpg" // Tell webpack this JS file uses this image
+
 
 require('typeface-mukta')
 require('typeface-bebas-neue')
@@ -24,6 +30,12 @@ export const query = graphql `query PageList{
                     frontmatter{
                         title
                         date
+                           projectPoster
+projectRelease
+projectSynopsis
+projectDirector
+projectStatus
+projectIMDB
                     }
                     timeToRead
                     excerpt
@@ -46,13 +58,32 @@ export default ({ data }) => {
                 </header>
                 <div>
                     {posts.map(({node}, index)=> (
-                        <Link to={node.fields.route} style={{textDecoration:'none', color:  'inherit'}} key={index}>
-                            <div className="post-item">
-                                <h3 className="post-title">{node.frontmatter.title}</h3>
-                                <p className="post-excerpt">{node.excerpt}</p>
-                                <p className="post-date">{node.frontmatter.date}</p>
-                            </div>
-                        </Link>
+                    
+                    
+                    <div>
+                       
+                    
+                    
+                     <Container fluid style={{ }}>
+  <Row>
+    <Col lg={true}>
+    
+        <Link aria-label="Generic Project Template" to={node.fields.route} key={index}>
+
+   <Carousel.Item className="project">
+<Image src={logo} className="projectFill"  alt="NEVER"  />
+                 <Carousel.Caption className="cappProject">
+<h1>{node.frontmatter.title}</h1>
+<p>{node.frontmatter.projectDirector}</p>
+</Carousel.Caption>
+</Carousel.Item>
+</Link>
+</Col></Row></Container>
+                    </div>
+                    
+                    
+                    
+                    
                     ))}
                 </div>
             </div>
