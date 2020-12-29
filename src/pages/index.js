@@ -42,7 +42,7 @@ export default ({ data }) => {
     <Projects/>
             <div>
                 <header>
-                    <h2>Let's place video memes here!</h2>
+                    <h2>Testing</h2>
                 </header>
                 <div>
                     {posts.map(({node}, index)=> (
