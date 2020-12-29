@@ -16,15 +16,15 @@ import { VscTwitter } from 'react-icons/vsc'
 
 class Menu extends Component {
     render() {
-      var visibility = "hide";
-  
-      if (this.props.menuVisibility) {
-        visibility = "show";
-      }
-  
-      return (
-       
-       <Container className="settingRight"><Row id="flyoutMenu"
+        var visibility = "hide";
+
+        if (this.props.menuVisibility) {
+            visibility = "show";
+        }
+
+        return (
+
+            <Container className="settingRight"><Row id="flyoutMenu"
              
        className={visibility}><Col className="menu-left-column">
         <div className="mainCont">
@@ -37,7 +37,7 @@ class Menu extends Component {
   </span>
 </button></div>  
          
-         <div className="linksCont">
+        <div className="linksCont">
          <div className="menuContainer">
           <h2><a href="#">About</a></h2>
           </div>
@@ -78,8 +78,8 @@ class Menu extends Component {
         </Container>
 
 
-      );
+        );
     }
-  }
-  
-  export default Menu;
+}
+
+export default Menu;

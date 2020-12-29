@@ -18,7 +18,7 @@ require('typeface-bebas-neue')
 
 const Footer = () => (
 
-<div className={styles.fullWidth}> 
+  <div className={styles.fullWidth}> 
 
 
 <Fade bottom>
@@ -48,10 +48,10 @@ const Footer = () => (
 
 
 </div>
-       
 
 
-  )
+
+)
 
 
 export default Footer
