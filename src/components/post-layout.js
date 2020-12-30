@@ -15,13 +15,13 @@ require('typeface-rubik')
 export default ({ data }) => {
     return (
         <Layout> <SEO title="Project Page SEO" />    
-<ProjectVideo/>
 
-                 <div><MDXRenderer>{data.mdx.code.body}</MDXRenderer></div>
+                 <div style={{ marginTop: `-64px`, border: `0 solid red`, }}><MDXRenderer>{data.mdx.code.body}</MDXRenderer></div>
 
-<Container  style={{ border:`0px black solid`,
-marginTop:`-64px`,
-paddingTop: `2em`,
+
+<Container  style={{ border:`0 black solid`,
+marginTop:`0`,
+paddingTop: `1em`,
 paddingBottom: `4em`,
 fontSize:`0.9em`,
   
@@ -90,6 +90,7 @@ fontSize:`0.9em`,
 
 </Container>
 
+<ProjectVideo/>
         </Layout>
     )
 }

@@ -1,10 +1,13 @@
 .video-player {
     display: flex;
     justify-content: center;
-    margin: 5% 0;
     /*  height: 400px;
      height: 400px;
-    width: 400px;*/
-    background-color: #343434;
+    width: 400px;
+    margin: 5% 0;
+    
+    padding: 20px 0;
+    */
+    background-color: green;
 
 }

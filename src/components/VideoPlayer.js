@@ -15,7 +15,7 @@ class VideoPlayer extends React.Component {
             loop: false,
             controls: true,
             muted: muted ? true : false,
-            transformation: { crop: 'limit', width: 500 },
+            //transformation: { crop: 'limit', width: 500 },
             // posterOptions: { publicId: 'king-keyframe' }
 
 
@@ -31,6 +31,8 @@ class VideoPlayer extends React.Component {
             <div className="video-player">
                     <video 
                         //autoPlay
+                        class="cld-video-player cld-fluid"
+                        width="500"
                         id="cl-vp">
                     </video>
             </div>
