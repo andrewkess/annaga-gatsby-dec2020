@@ -17,9 +17,9 @@ class VideoPlayer extends React.Component {
             muted: muted ? true : false,
             transformation: {
 
-                gravity: "auto",
-                height: "1040",
-                width: "1920",
+                //gravity: "auto",
+                //height: "1040",
+               // width: "1920",
                 crop: "fill_pad"
 
 
@@ -28,10 +28,10 @@ class VideoPlayer extends React.Component {
                 //publicId: publicID,
 
                 //effect: ['sepia'],
-                gravity: "auto",
-                height: "1040",
-                width: "1920",
-                crop: "fill",
+                //gravity: "auto",
+                //height: "1040",
+                //width: "1920",
+                //crop: "fill",
                 start_offset: posterID,
             }
             //crop: "fill",
