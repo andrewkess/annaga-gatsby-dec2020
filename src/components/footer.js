@@ -20,18 +20,17 @@ const Footer = () => (
 
   <div className={styles.fullWidth}> 
 
-
-<Fade bottom>
+<div className={styles.paddingFooter}>
 
 <div className={styles.spreadApart}>
 
-<div   className={styles.socialIcons2} style={{paddingRight:`1em`}}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></div>
+<div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.instagram.com"><TiSocialInstagram /></a></div>
   <div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.twitter.com"><VscTwitter /></a></div>
   <div   className={styles.socialIcons2}><a className={styles.footerOver} href="http://www.vimeo.com"><FaVimeoV /></a></div>
 
 
 </div>
-</Fade>
+
 
    <div className={styles.bottomFooter2}>
           &copy;{new Date().getFullYear()} Annaga Productions
@@ -45,7 +44,7 @@ const Footer = () => (
             <Link to="/" aria-label="Link to Terms of Use" className={styles.bottomFooterLink}>Terms of Use</Link> 
 
     </div>
-
+</div>
 
 </div>
 

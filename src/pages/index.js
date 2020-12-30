@@ -4,15 +4,15 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles2 from '../components/hero-module.css'
 import { Container, Row, Col, Image, Carousel } from 'react-bootstrap'
+import Fade from 'react-reveal/Fade'
 
 
 import VideoPlayer from '../components/VideoPlayer'
 
 import Hero from '../components/hero'
-import Projects from '../components/projects'
+//import Projects from '../components/projects'
 import './index.css'
 
-import logo from "../images/brexit.jpg" // Tell webpack this JS file uses this image
 
 
 require('typeface-mukta')
@@ -51,11 +51,17 @@ export default ({ data }) => {
     <Layout>
             <SEO title="Home" />
     <Hero/>
-    <Projects/>
-            <div>
-                <header>
-                    <h2>Testing</h2>
-                </header>
+
+            <div style={{ //
+            maxWidth: `960px`, margin: `auto`
+            //marginLeft:`15%`,
+           // marginRight:`15%`,
+                
+            }}>
+               
+                    <Fade bottom><div className="projectsTitle" >Latest Projects</div></Fade>
+
+               
                 <div>
                     {posts.map(({node}, index)=> (
                     
@@ -64,7 +70,7 @@ export default ({ data }) => {
                        
                     
                     
-                     <Container fluid style={{ }}>
+                   <Fade bottom>  <Container fluid className="projectContainer">
   <Row>
     <Col lg={true}>
     
@@ -81,7 +87,7 @@ export default ({ data }) => {
 </Carousel.Caption>
 </Carousel.Item>
 </Link>
-</Col></Row></Container>
+</Col></Row></Container></Fade>
                     </div>
                     
                     

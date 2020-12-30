@@ -382,7 +382,12 @@ display: flex;
 .spreadApart{
   display: flex;
   flex-direction: row-reverse;
+ 
+}
 
+.paddingFooter{
+ max-width: 960px; 
+  margin: auto;
 }
 
 .socialIcons
@@ -399,14 +404,15 @@ display: flex;
   width: 100%;
 
           padding-top: 1rem;
-          padding-bottom: 0.6rem;
+          padding-bottom: 1rem;
 
-  padding-left:1em;
-  padding-right:0em;
 
 
       background-color: #FF2483;
   background-color:#240001;
+  padding-right: 5% !important;
+    padding-left: 5% !important;
+z-index:500;
 
 }
 
@@ -416,7 +422,7 @@ display: flex;
 
   justify-content:flex-end;
   flex-direction: row-reverse;
-padding-right:0.3em;
+
   
 }
 

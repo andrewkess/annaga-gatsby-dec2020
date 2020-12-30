@@ -68,8 +68,8 @@ height: calc(var(--vh, 1vh) * 90);
           */
           display: block !important;
 
-height: calc(var(--vh, 1vh) * 70);
-    margin-bottom:30px;
+height: calc(var(--vh, 1vh) * 60);
+    margin-bottom:5vh;
 }
 
 .removePad{
@@ -377,10 +377,14 @@ height:100vh;
     padding-bottom: 2rem;
     font-size: 3em;
     color:#240001;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%
   }
+
+.projectContainer{
+padding-right: 5% !important; 
+padding-left: 5% !important;
+}
         
   .aboutText{
       font-weight: 500;

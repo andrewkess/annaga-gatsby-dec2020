@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import SEO from "../components/seo"
 import { Container, Row, Col } from "react-bootstrap"
-import ProjectVideo from '../components/projectVideo'
+//import ProjectVideo from '../components/projectVideo'
 import styles2 from '../components/hero-module.css'
 
 require('typeface-mukta')
@@ -89,8 +89,6 @@ fontSize:`0.9em`,
 
 
 </Container>
-
-<ProjectVideo/>
         </Layout>
     )
 }
