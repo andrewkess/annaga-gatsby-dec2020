@@ -15,9 +15,18 @@ class VideoPlayer extends React.Component {
             loop: false,
             controls: true,
             muted: muted ? true : false,
-            //transformation: { crop: 'limit', width: 500 },
-            // posterOptions: { publicId: 'king-keyframe' }
+            transformation: {
 
+                gravity: "auto",
+                height: "1040",
+                width: "1920",
+                crop: "fill"
+
+
+            },
+            // posterOptions: { publicId: 'king-keyframe' }
+            //crop: "fill",
+            //gravity: "auto",
 
         })
         videoPlayer.source(publicID ? publicID : "", {
@@ -32,7 +41,6 @@ class VideoPlayer extends React.Component {
                     <video 
                         //autoPlay
                         class="cld-video-player cld-fluid"
-                        width="500"
                         id="cl-vp">
                     </video>
             </div>
