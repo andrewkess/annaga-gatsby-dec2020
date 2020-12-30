@@ -20,11 +20,11 @@ class VideoPlayer extends React.Component {
                 gravity: "auto",
                 height: "1040",
                 width: "1920",
-                crop: "fill"
+                crop: "fill_pad"
 
 
             },
-            // posterOptions: { publicId: 'king-keyframe' }
+            posterOptions: { publicId: 'king-keyframe' }
             //crop: "fill",
             //gravity: "auto",
 
