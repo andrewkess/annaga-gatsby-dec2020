@@ -20,7 +20,7 @@ class VideoPlayer extends React.Component {
                 //gravity: "auto",
                 //height: "1040",
                // width: "1920",
-                crop: "fill_pad"
+               // crop: "fill_pad"
 
 
             },
@@ -52,7 +52,9 @@ class VideoPlayer extends React.Component {
                     <video 
                         //autoPlay
                         class="cld-video-player cld-fluid"
-                        id="cl-vp">
+                        id="cl-vp"
+                        style={{ //height:`100%`, objectFit: `cover`, maxHeight:`400px`,
+                        }}>
                     </video>
             </div>
 
