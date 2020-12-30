@@ -71,7 +71,10 @@ export default ({ data }) => {
         <Link aria-label="Generic Project Template" to={node.fields.route} key={index}>
 
    <Carousel.Item className="project">
-<Image src={logo} className="projectFill"  alt="NEVER"  />
+   
+   
+   
+<Image src={node.frontmatter.projectPoster} className="projectFill"  alt="NEVER"  />
                  <Carousel.Caption className="cappProject">
 <h1>{node.frontmatter.title}</h1>
 <p>{node.frontmatter.projectDirector}</p>
