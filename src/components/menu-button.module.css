@@ -403,7 +403,7 @@ display: flex;
 .fullWidth{
   width: 100%;
 
-          padding-top: 1rem;
+          padding-top: 3rem;
           padding-bottom: 1rem;
 
 
@@ -413,7 +413,6 @@ display: flex;
   padding-right: 5% !important;
     padding-left: 5% !important;
 z-index:500;
-
 }
 
 .socialIcons2
