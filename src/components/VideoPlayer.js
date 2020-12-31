@@ -15,12 +15,14 @@ class VideoPlayer extends React.Component {
             loop: false,
             controls: true,
             muted: muted ? true : false,
+
             transformation: {
 
-                //gravity: "auto",
-                //height: "1040",
-               // width: "1920",
-               // crop: "fill_pad"
+                gravity: 'auto',
+                height: "700",
+                width: "1600",
+                //aspect_ratio:'16:9',
+                crop: "fill"
 
 
             },
@@ -28,10 +30,10 @@ class VideoPlayer extends React.Component {
                 //publicId: publicID,
 
                 //effect: ['sepia'],
-                //gravity: "auto",
-                //height: "1040",
-                //width: "1920",
-                //crop: "fill",
+                gravity: "auto",
+                height: "700",
+               width: "1600",
+                crop: "fill",
                 start_offset: posterID,
             }
             //crop: "fill",
@@ -53,8 +55,8 @@ class VideoPlayer extends React.Component {
                         //autoPlay
                         class="cld-video-player cld-fluid"
                         id="cl-vp"
-                        style={{ //height:`100%`, objectFit: `cover`, maxHeight:`400px`,
-                        }}>
+                        //style={{ height:`50vh`}}
+                        >
                     </video>
             </div>
 
