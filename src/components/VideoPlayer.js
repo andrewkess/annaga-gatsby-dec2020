@@ -20,8 +20,8 @@ class VideoPlayer extends React.Component {
 
                 gravity: 'auto',
                 height: "700",
-                width: "1600",
-                //aspect_ratio:'16:9',
+                //width: "1600",
+                aspect_ratio:'16:9',
                 crop: "fill"
 
 
@@ -32,7 +32,8 @@ class VideoPlayer extends React.Component {
                 //effect: ['sepia'],
                 gravity: "auto",
                 height: "700",
-               width: "1600",
+               //width: "1600",
+               aspect_ratio:'16:9',
                 crop: "fill",
                 start_offset: posterID,
             }
