@@ -34,12 +34,12 @@ fontSize:`0.9em`,
 <div className="projectTitle">
 
 {data.mdx.frontmatter.title}
-<hr />
+<hr style={{ marginTop: `0px !important`,}} />
 </div>
 
 
 </Col><Col xs="auto">
-<div className="projectTitle" style={{ fontSize:`1.8em`, paddingTop:`7px`, opacity:`0.5`, }}>
+<div className="projectTitle" style={{ fontSize:`1.8em`, paddingTop:`12px`, opacity:`0.5`, }}>
 
 {data.mdx.frontmatter.projectRelease}
 
