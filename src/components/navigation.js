@@ -17,7 +17,7 @@ import logo from  "../images/annaga-logo.png" // Tell webpack this JS file uses 
 export default () => (
 
 
-
+<div style={{ maxWidth:`960px`, margin: `auto`}}>
 <Container className={styles.navigationBar} fluid >
 <Row>
  
@@ -34,6 +34,6 @@ export default () => (
 </Col>
 </Row>
 </Container>
-
+</div>
 
 )

@@ -41,7 +41,6 @@ const Header = ({ siteTitle }) => (
     <MenuContainer />
 </div></div>
 
-  
 
   </header>
   </Headroom>

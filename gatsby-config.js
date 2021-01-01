@@ -1,3 +1,5 @@
+
+
 module.exports = {
   siteMetadata: {
     title: `Annaga Productions`,
@@ -42,16 +44,6 @@ module.exports = {
         }
       }
         },
-
-
-
-
-
-
-
-
-
-
 
 
 
