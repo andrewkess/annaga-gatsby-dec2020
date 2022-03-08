@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "annaga",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Annaga with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andrew Kessinger <andrew.kessinger@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "^0.15.5",
     "@mdx-js/tag": "^0.16.1",
