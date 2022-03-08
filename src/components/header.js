@@ -6,7 +6,7 @@ import Headroom from "react-headroom"
 //import Navigation from "./navigation.js"
 
 
-import { Container, Col, Row, Image } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 import styles from './menu-button.module.css'
 import MenuContainer from './menu-container.js'
 import './hamburger.css'
