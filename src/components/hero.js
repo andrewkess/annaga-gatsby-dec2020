@@ -6,9 +6,9 @@ import styles2 from './hero-module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import logo from "../images/ramy-keyframe.jpg" // Tell webpack this JS file uses this image
-import logoTwo from "../images/king-keyframe.jpeg" // Tell webpack this JS file uses this image
-import logoThree from "../images/minari-keyframe.jpeg" // Tell webpack this JS file uses this image
+import logo from "../images/meditate.jpg" // Tell webpack this JS file uses this image
+import logoTwo from "../images/gratitude.png" // Tell webpack this JS file uses this image
+import logoThree from "../images/psalm.jpg" // Tell webpack this JS file uses this image
 
 
 
@@ -51,7 +51,7 @@ const Hero = () => (
             <Carousel.Caption className="capp">
                 <div className="backFiller">
 
-                    <h1>GRATITUDE BRINGS AWARENESS</h1>
+                    <h1>GRATITUDE</h1>
 
                     <p className={styles2.fake}>Graceful comment on timely sociopolitical themes.</p>
                 </div>

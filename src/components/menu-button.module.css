@@ -248,7 +248,7 @@ display: flex;
 .bottomFooter a.bottomFooterLink:hover
 {
   font-family: "Mukta";
-  color: #FF2483;
+  color: #ffb3b5;
  
 }
 
@@ -260,7 +260,7 @@ display: flex;
 .bottomFooter2 a.bottomFooterLink:hover
 {
   font-family: "Mukta";
-  color: #FF2483;
+  color: #ffb3b5;
  
 }
 
@@ -408,7 +408,7 @@ display: flex;
 
 
 
-      background-color: #FF2483;
+      background-color: #ffb3b5;
   background-color:#240001;
   padding-right: 5% !important;
     padding-left: 5% !important;
@@ -446,7 +446,7 @@ z-index:500;
 }
 .socialIcons a{
   background-color:#ffffff;
-  color:#FF2483;
+  color:#ffb3b5;
   display:inline-block;
   line-height:38px;
   width:38px;
@@ -513,12 +513,12 @@ color:white;
 .socialIcons a.footerOver:hover
 {
   background-color:#ffffff;
-  color:#FF2483;
+  color:#ffb3b5;
 }
 
 .socialIcons2 a.footerOver:hover
 {
-  color:#FF2483;
+  color:#ffb3b5;
 }
 
 

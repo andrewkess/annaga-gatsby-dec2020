@@ -59,7 +59,7 @@ export default ({ data }) => {
         }}
       >
         <Fade bottom>
-          <div className="projectsTitle">Latest Projects</div>
+          <div className="projectsTitle">Latest videos</div>
         </Fade>
 
         <div>
