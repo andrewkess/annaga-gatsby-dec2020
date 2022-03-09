@@ -72,7 +72,7 @@ touch-action: none;
   }
    
   #flyoutMenu a:hover {
-  color: #FF2483;
+  color: #ffb3b5;
   }
   
   
@@ -91,13 +91,6 @@ touch-action: none;
       font-size: 1em;
       }
   
-  .menuContainer2{
-  }
-
-
- .mainCont{
-
-}
 
 .linksCont{
   padding-top: 4em;
@@ -177,5 +170,5 @@ font-size:1em;
 
 .socialIconsMenu a.footerOverMenu:hover
 {
-  color:#FF2483 !important;
+  color:#ffb3b5 !important;
 }

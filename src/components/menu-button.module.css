@@ -222,7 +222,7 @@ display: flex;
 
   font-family: "Mukta";
   color: #ffffff;
-  font-size: 0.7em;
+  font-size: 0.9em;
   align-items: center;
   padding-top:20px;
   padding-bottom:10px;
@@ -382,7 +382,7 @@ display: flex;
 .spreadApart{
   display: flex;
   flex-direction: row-reverse;
- 
+  
 }
 
 .paddingFooter{
@@ -421,7 +421,7 @@ z-index:500;
 
   justify-content:flex-end;
   flex-direction: row-reverse;
-
+  padding: 10px;
   
 }
 
@@ -429,7 +429,7 @@ z-index:500;
 {
   display:inline-block;
   padding-right:0px;
-  padding-left:25px;
+  padding-left:35px;
   padding-top:25px;
   align-items: center;
 
@@ -508,6 +508,7 @@ font-size:32px;
   font-size: 30px;
   padding-top:0px;
 color:white;
+padding-left:10px;
 }
 
 .socialIcons a.footerOver:hover

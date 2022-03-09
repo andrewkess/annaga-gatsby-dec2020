@@ -73,10 +73,6 @@ height: calc(var(--vh, 1vh) * 60);
     max-height:300px;
 }
 
-.removePad{
-
-
-}
 
 .projectFill{
   /*
@@ -102,16 +98,6 @@ width:100%;
 height:60vh;
 }
   
-
-.backFiller{
-
-  
-}
-
-.backFiller:hover h1 {
-
-  
-}
 
 
   .capp{
