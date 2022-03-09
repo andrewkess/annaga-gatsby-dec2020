@@ -2,11 +2,11 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styles2 from "../components/hero-module.css"
+//import styles2 from "../components/hero-module.css"
 import { Container, Row, Col, Image, Carousel } from "react-bootstrap"
 import Fade from "react-reveal/Fade"
 
-import VideoPlayer from "../components/VideoPlayer"
+//import VideoPlayer from "../components/VideoPlayer"
 
 import Hero from "../components/hero"
 //import Projects from '../components/projects'
