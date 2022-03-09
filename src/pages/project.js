@@ -37,7 +37,7 @@ const ProjectPage = () => (
 
           <div className="projectTitle">
 
-            PENGUIN BLOOM
+            THE MINDFUL CHRISTIAN
             <hr />
           </div>
 
