@@ -16,6 +16,23 @@ require("typeface-mukta")
 require("typeface-bebas-neue")
 require("typeface-rubik")
 
+
+
+//hack to calculate the actual browser window height on mobile and save that value in the 'vh' variable which can be used later in CSS
+if (typeof window !== "undefined") {
+  // browser code
+
+  function appHeight() {
+      const doc = document.documentElement
+      doc.style.setProperty('--vh', (window.innerHeight*.01) + 'px');
+    }
+  
+    window.addEventListener('resize', appHeight);
+    appHeight();
+
+}
+
+
 export const query = graphql`
   query PageList {
     allMdx(sort: { fields: [frontmatter___date], order: DESC }) {

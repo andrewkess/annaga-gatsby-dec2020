@@ -22,7 +22,15 @@ import logoThree from "../images/psalm.jpg" // Tell webpack this JS file uses th
 const Hero = () => (
 
 
-    <Carousel fade={true} data-interval={false} indicators={false} className="preview">
+    <Carousel fade={true} data-interval={false} indicators={false} className="preview"
+    
+    style={{
+        height:
+          '100vh' /* Fallback for browsers that do not support Custom Properties */,
+        height: 'calc(var(--vh, 1vh) * 100)',
+      }}
+    
+    >
 
 
         <Carousel.Item className="getFull">
@@ -36,7 +44,7 @@ const Hero = () => (
                     <div className="backFiller">
 
                         <h1>THE MINDFUL CHRISTIAN</h1>
-                        <p>Embracing all moments of life with acceptance and curiosity.</p>
+                        <p>Embracing life with acceptance and curiosity.</p>
                     </div>
                 </Carousel.Caption>
             </a>
