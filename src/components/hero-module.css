@@ -3,7 +3,7 @@
 .project:hover h1 {
 /*
 cute ideas for giving a hover effect over the project cards
-color: #ffb3b5 !important;
+color: #FF2483 !important;
     opacity: 0.7;
  cursor: pointer;
 */
@@ -12,7 +12,7 @@ color: #ffb3b5 !important;
 .project:hover {
 /*
 cute ideas for giving a hover effect over the project cards
-color: #ffb3b5 !important;
+color: #FF2483 !important;
     opacity: 0.7;
  cursor: pointer;
 */
@@ -225,7 +225,7 @@ margin-bottom: 0.5rem;
       object-position: center center;
           justify-content: flex-start !important;
   
-          #ffb3b5
+          #FF2483
 
 
       */
@@ -259,7 +259,7 @@ height:50vh;
       object-position: center center;
           justify-content: flex-start !important;
   
-          #ffb3b5
+          #FF2483
 
 
       */
@@ -277,7 +277,6 @@ height:50vh;
 top: -64px;
 z-index:0;
 height:100vh;
-
   max-height: -webkit-fill-available;
 
 
@@ -292,7 +291,6 @@ height:50vh;
   .getFull{
 
 height:100vh;
-
   max-height: -webkit-fill-available;
 
 

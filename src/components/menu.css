@@ -72,7 +72,7 @@ touch-action: none;
   }
    
   #flyoutMenu a:hover {
-  color: #ffb3b5;
+  color: #FF2483;
   }
   
   
@@ -177,5 +177,5 @@ font-size:1em;
 
 .socialIconsMenu a.footerOverMenu:hover
 {
-  color:#ffb3b5 !important;
+  color:#FF2483 !important;
 }
