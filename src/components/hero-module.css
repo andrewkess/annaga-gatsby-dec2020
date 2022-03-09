@@ -1,13 +1,5 @@
 @import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
-.project:hover h1 {
-/*
-cute ideas for giving a hover effect over the project cards
-color: #FF2483 !important;
-    opacity: 0.7;
- cursor: pointer;
-*/
-}
 
 .project:hover {
 /*
@@ -88,11 +80,6 @@ width:100%;
 
 }
 
-.fake{
-    /*
-  placeholder css to force the css to load through theme
-          */
-}
 
 .mainDiv {
 height:60vh;
