@@ -24,11 +24,7 @@ const Hero = () => (
 
     <Carousel fade={true} data-interval={false} indicators={false} className="preview"
     
-    style={{
-        height:
-          '100vh' /* Fallback for browsers that do not support Custom Properties */,
-        height: 'calc(var(--vh, 1vh) * 100)',
-      }}
+
     
     >
 

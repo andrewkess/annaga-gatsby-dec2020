@@ -277,6 +277,7 @@ height:50vh;
 top: -64px;
 z-index:0;
 height:100vh;
+
   max-height: -webkit-fill-available;
 
 
@@ -291,6 +292,8 @@ height:50vh;
   .getFull{
 
 height:100vh;
+height: calc(var(--vh, 1vh) * 100);
+
   max-height: -webkit-fill-available;
 
 
